@@ -5,15 +5,6 @@ ham.addEventListener('click', () => {
  mobileNav.style.right = '0';
 });
 
-// const links =document.querySelectorAll('.navlink');
-// links.forEach((link) => {
-//   link.addEventListerner('click', () => {
-//     div.classList.add('hide');
-//     ham.classList.remove('hide');
-//     document.querySelector('.box').classList.remove('blur');
-//   })
-// })
-
 // This will listen for clicks on the X button
 const closebtn = document.querySelector('.markx');
 closebtn.addEventListener('click', () => {
@@ -24,27 +15,27 @@ closebtn.addEventListener('click', () => {
 let data =[
   {
     image:'fa-solid fa-masks-theater',
-    heading:'healthy',
+    heading:'Healthy',
     paragraph:'Appreciate various creations applying CC license of researchers, organised in the country.'
   },
   {
     image:'fa-solid fa-masks-theater',
-    heading:"Long life",
+    heading:"Happy",
     paragraph:'Appreciate various creations applying CC license of researchers, organised in the country.'
   },
   {
     image:'fa-solid',
-    heading:"healthy",
+    heading:"Healthy",
     paragraph:'Appreciate various creations applying CC license of researchers, organised in the country.'
   },
   {
     image:'fa-solid fa-masks-theater',
-    heading:'Long life',
+    heading:'Happy',
     paragraph:'Appreciate various creations applying CC license of researchers, organised in the country.'
   },
   {
     image:'fa-solid',
-    heading:"healthy",
+    heading:"Healthy",
     paragraph:'Appreciate various creations applying CC license of researchers, organised in the country.'
   },
 ];
@@ -73,6 +64,7 @@ function Cartdisplay() {
 
   }
 }
+
 Cartdisplay(data);
 let featureData = [
   {
@@ -100,10 +92,10 @@ let featureData = [
     para:'Listing the best fruits and veggies with low glycemic indexes...'
   },
   {
-    image: 'images/image1.jfif',
-    head:'Yochai Benkler',
+    image: 'images/salad.jpg',
+    head:'Benefits of veggies',
     subHead:'Research has proven that some fruits and veggies reduces blood sugar.',
-    para:'Benkler studies common-based peer production, and '
+    para:'Veggies being nutrient dense, we will talk about the best cooking methods...'
   },
   {
     image: 'images/oils.jpg',
@@ -142,3 +134,25 @@ card.appendChild(paraCard);
 }
 };
 featureDisplay(featureData);
+
+
+const myWork = [{
+    list: 'See More',
+    angleDown: 'fa-solid fa-angle-down'
+  },
+  ]
+
+  function complete() {
+    const selectChoice= document.querySelector('.see');
+    const workContent= document.createElement('ul');
+    workContent.classList.add('.see-one');
+    const listing= document.createElement('li');
+    listing.innerHTML=myWork[0].list[0];
+    listing.innerHTML=myWork[0].angleDown[1];
+  
+    //appending children
+    selectChoice.appendChild(workContent);
+    workContent.appendChild(listing);
+
+  }
+  complete(myWork);

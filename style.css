@@ -357,6 +357,30 @@
     margin-bottom: 30px;
 }
 
+.see {
+    display: block;
+    border: 2px solid rgb(184, 175, 175);
+    width: 100%;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.see > .see-one {
+    display: flex;
+    gap: 1.5rem;
+    margin-left: 7.5rem;
+}
+
+.see-one:nth-child(1) {
+    font-weight: 700;
+    font-size: 25px;
+    padding-top: 8px;
+}
+
+.see .fa-angle-down {
+    color: #ec5242;
+}
+
 h3 {
     justify-content: center;
     text-align: center;
@@ -428,7 +452,7 @@ h3 {
 @media screen and (min-width: 768px) {
 #ham {
     display: none;
-    }
+}
 
 .mainest {
     background-image: url("images/students-computer.jpg");
@@ -436,7 +460,7 @@ h3 {
     background-size: cover;
     width: 100%;
     height: auto;
-    }
+}
     
 .nav3hide {
    display: none;
@@ -466,7 +490,7 @@ h3 {
 .nav1 > .nav1o {
     display: flex;
     list-style-type: none;
-    margin-left: 440px;
+    margin-left: 410px;
 }
 
 .nav21 {
@@ -478,40 +502,39 @@ h3 {
     list-style-type: none;
     float: right;
     margin-right: 70px;
-    }
+}
 
 .nav21 {
     padding-right: 35px;
     padding-top: 10px;
-    }
+}
         
 .nav21 a {
     text-decoration: none;
     color: rgb(37, 34, 34);
-    }
+}
         
 .nav21 a:hover {
     color: rgb(243, 49, 49);
     border: 2px solid rgb(243, 49, 49);
     padding: 2px 7px;
-    
-    }
+}
 
 .nav2 {
     padding-bottom: 35px;
     background-color: #fff;
-    }
+}
 
-    .nutrition {
-        display: block;
-    }
+.nutrition {
+    display: block;
+}
 
-    .nav201 > .nutrition img {
-        display: block;
-        width: 45px;
-        position: absolute;
-        left: 75px;
-    }
+.nav201 > .nutrition img {
+    display: block;
+    width: 45px;
+    position: absolute;
+    left: 75px;
+}
 
 .box1 {
     background-color: rgb(211, 211, 211, 0.8);
@@ -557,7 +580,11 @@ h3 {
 .second {
     margin-left: 4rem;
     margin-top: 20px;
-    }
+}
+
+.see {
+    display: none;
+}
         
 .second h2 {
     font-family: 'poppins', sans-serif;
@@ -610,7 +637,7 @@ h3 {
 .box2a {
     border: 1px solid rgb(71, 65, 65);
     background-color: rgb(43, 40, 40);
-    margin-left: 15px;
+    margin-left: 0;
     flex-wrap: wrap;
     max-width: 200px;
     padding: 24px;
@@ -727,7 +754,7 @@ h3 {
     bottom: 2.2rem;
     display: flex;
     flex: 2;
-    width: 30%;
+    width: 100%;
     align-self: flex-end;
     flex-wrap: wrap;
     }
