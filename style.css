@@ -485,12 +485,16 @@ h3 {
     background-color: rgb(22, 19, 19);
     padding-top: 10px;
     padding-bottom: 10px;
+    justify-content: flex-end;
+    padding-right: 5.5rem;
+    
 }
 
 .nav1 > .nav1o {
     display: flex;
     list-style-type: none;
-    margin-left: 410px;
+    /* flex-direction: flex-end; */
+    /* margin-left: 410px; */
 }
 
 .nav21 {
@@ -738,22 +742,22 @@ h3 {
 .box3a {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    margin-left: -2rem;
     }
 
 .box3b {
     display: flex;
     flex-direction: row;
-    gap: 20px;
+    gap: -1px;
     margin-bottom: 20px;
-    margin-right: 50px;
-    margin-left: 50px;
-    }
+    margin-left: 30px;
+}
   
 .box3b img {
     position: relative;
-    bottom: 2.2rem;
+    bottom: 1rem;
     display: flex;
-    flex: 2;
+    flex: 3;
     width: 100%;
     align-self: flex-end;
     flex-wrap: wrap;

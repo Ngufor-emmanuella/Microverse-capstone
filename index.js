@@ -153,6 +153,5 @@ const myWork = [{
     //appending children
     selectChoice.appendChild(workContent);
     workContent.appendChild(listing);
-
   }
   complete(myWork);
