@@ -19,7 +19,7 @@ let data =[
     paragraph:'Appreciate various creations applying CC license of researchers, organised in the country.'
   },
   {
-    image:'fa-solid fa-masks-theater',
+    image:'fa-regular fa-head-side-mask',
     heading:"Happy",
     paragraph:'Appreciate various creations applying CC license of researchers, organised in the country.'
   },
@@ -51,6 +51,7 @@ function Cartdisplay() {
     const iconImg = document.createElement("i");
     iconImg.classList.add('fa-solid');
     iconImg.classList.add('fa-masks-theater');
+    // iconImg.classList.add('fa-regular fa-head-side-mask');
     const cartHead = document.createElement("h2");
     cartHead.innerHTML=data[i].heading;
     const cartPara = document.createElement("p");
@@ -135,23 +136,15 @@ card.appendChild(paraCard);
 };
 featureDisplay(featureData);
 
-
+const selectChoice= document.querySelector('.see');
 const myWork = [{
     list: 'See More',
-    angleDown: 'fa-solid fa-angle-down'
-  },
-  ]
-
-  function complete() {
-    const selectChoice= document.querySelector('.see');
-    const workContent= document.createElement('ul');
-    workContent.classList.add('.see-one');
-    const listing= document.createElement('li');
-    listing.innerHTML=myWork[0].list[0];
-    listing.innerHTML=myWork[0].angleDown[1];
-  
-    //appending children
-    selectChoice.appendChild(workContent);
-    workContent.appendChild(listing);
   }
-  complete(myWork);
+  ]
+const content = `
+<ul class="see-one">
+                <li>${myWork[0].list}</li>                                    
+                <li><i class="fa-solid fa-angle-down"></i></li>
+            </ul>
+`;
+selectChoice.innerHTML = content
