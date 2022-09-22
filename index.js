@@ -147,3 +147,9 @@ const content = `
             </ul>
 `;
 selectChoice.innerHTML = content;
+
+const menuDrop = document.querySelector('.box3b')
+
+selectChoice.addEventListener('click', ()=> {
+  menuDrop.style.display = 'block'
+})
