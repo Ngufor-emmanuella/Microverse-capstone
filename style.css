@@ -288,7 +288,7 @@
 }
 
 .box3b img {
-    width: 20rem;
+    width: 30vh;
 }
 
 .box3b h6 {
@@ -400,8 +400,10 @@ h3 {
     display: flex;
     margin-bottom: 25px;
     margin-top: 25px;
-    justify-content: center;
+    justify-content: space-between;
     text-align: center;
+    margin-left: 25px;
+    margin-right: 10px;
 }
 
 .end1 img {
@@ -416,7 +418,6 @@ h3 {
 
 .end1 p {
     padding-top: 55px;
-    margin-left: 0;
     text-transform: capitalize;
     font-family: 'Lato', sans-serif;
     font-weight: 500;
@@ -640,21 +641,23 @@ h3 {
     color: #fff;
     display: grid;
     grid-template-columns: repeat(5, 20%);
-    margin-left: 15px;
+    place-items: center;
+    align-items: center;
     flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-left: 3px;
+    margin-right: 3px;
     }
         
 .box2a {
+    display: flex;
     border: 1px solid rgb(71, 65, 65);
     background-color: rgb(43, 40, 40);
-    margin-left: 0;
     flex-wrap: wrap;
-    max-width: 200px;
-    padding: 24px;
-    margin-top: 20px;
-    margin-bottom: 10rem;
+    padding: 2rem;
+    margin: 1rem 0.5rem 3rem 0.5rem;
     transition: all 1s ease-out;
-    }
+}
 
 .box2a:hover, .box2a:focus {
     border: 5px solid rgb(233, 230, 230);
@@ -668,6 +671,7 @@ h3 {
     font-weight: 700;
     font-size: 16px;
     padding-bottom: 10px;
+    
     }
         
 .fa-solid {
@@ -749,7 +753,7 @@ h3 {
 .box3a {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    margin-left: -2rem;
+    justify-content: space-around;
     }
 
 .box3b {
@@ -757,15 +761,14 @@ h3 {
     flex-direction: row;
     gap: -1px;
     margin-bottom: 20px;
-    margin-left: 30px;
-}
+    justify-content: center;
+} 
   
 .box3b img {
     position: relative;
     bottom: 1rem;
     display: flex;
-    flex: 1;
-    /* width: 100%; */
+    width: 16vh;
     align-self: flex-end;
     flex-wrap: wrap;
     }
