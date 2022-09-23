@@ -170,7 +170,7 @@
   margin-left: 10rem;
 }
 
-.second-second p {
+.color-blur p {
   width: 94vw;
   margin-left: 1.5rem;
   padding-top: 1rem;
@@ -178,12 +178,13 @@
 }
 
 .lasting-image {
-  width: 100vw;
-  display: grid;
-  grid-template-rows: repeat(2, 80%);
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  /* grid-template-rows: repeat(2, 80%); */
   /* justify-content: center;
   flex-direction: column; */
-  gap: 20px;
+  /* gap: 20px */
 
 }
 
@@ -191,7 +192,8 @@
   background-image: url("images/attendees1.jpg");
   background-size: contain;
   background-repeat: no-repeat;
-  color: red;
+  color: #fff;
+  margin-left: 5.5vw;
   transition: all;
   transition-duration: 1s;
    /* width: 85%; */
@@ -201,9 +203,18 @@
 
 .blur-part-2 {
   background-image: url("images/med1.png");
-  background-size: contain;
+  background-size: 90vw;
   background-repeat: no-repeat;
+  color: #fff;
+  margin-left: 5.5vw;
+  transition: all;
+  transition-duration: 1s;
   /* width: 85%; */
+}
+
+.color-blur {
+  background-color: rgba(255, 165, 0, 0.5);
+  padding: 77px;
 }
 
 /* .lasting-image .one {
@@ -528,9 +539,14 @@
   }
 
   .lasting-image {
-    display: inline-grid;
-    grid-template-columns: repeat(2, 50%);
+    display: flex;
   }
+
+  .color-blur {
+    background-color: rgba(255, 165, 0, 0.5);
+    padding: 77px;
+  }
+  
 
   /* .last-lasting {
    
