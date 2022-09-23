@@ -170,7 +170,7 @@
   margin-left: 10rem;
 }
 
-.color-blur p {
+.second-second p {
   width: 94vw;
   margin-left: 1.5rem;
   padding-top: 1rem;
@@ -181,11 +181,6 @@
   display: flex;
   flex-direction: column;
   gap: 2rem;
-  /* grid-template-rows: repeat(2, 80%); */
-  /* justify-content: center;
-  flex-direction: column; */
-  /* gap: 20px */
-
 }
 
 .blur-part {
@@ -193,58 +188,54 @@
   background-size: contain;
   background-repeat: no-repeat;
   color: #fff;
-  margin-left: 5.5vw;
+  margin-left: 2.5vw;
   transition: all;
   transition-duration: 1s;
-   /* width: 85%; */
-  /* opacity: 0.4;
-  margin-left: 1.5rem; */
 }
 
 .blur-part-2 {
   background-image: url("images/med1.png");
-  background-size: 90vw;
+  background-size: 95vw;
   background-repeat: no-repeat;
   color: #fff;
-  margin-left: 5.5vw;
+  margin-left: 3.5vw;
   transition: all;
   transition-duration: 1s;
-  /* width: 85%; */
 }
 
 .color-blur {
-  background-color: rgba(255, 165, 0, 0.5);
+  background-color: rgba(255, 60, 0, 0.5);
   padding: 77px;
 }
 
-/* .lasting-image .one {
+.color-blur .one {
   position: relative;
-  left: 8rem;
+  left: 15vw;
   font-family: 'Lato', sans-serif;
   font-weight: 700;
   font-size: 35px;
-  color: rgb(88, 83, 83);;
-  top: -5rem;
+  color: #fff;
+  top: -15vw;
 }
 
-.lasting-image .two {
+.color-blur .two {
   position: relative;
-  top: -10rem;
+  top: -21vw;
   font-family: 'Lato', sans-serif;
   font-weight: 500;
   font-size: 12px;
-  color: rgb(88, 83, 83);
-  left: 3rem;
+  color: #fff;
+  left: -15vw;
 }
 
-.lasting-image .three {
+.pushit .three {
   position: relative;
-  left: 8rem;
+  left: 15vw;
   font-family: 'Lato', sans-serif;
   font-weight: 700;
   font-size: 35px;
-  color: rgb(88, 83, 83);
-  bottom: 13rem;
+  color: #fff;
+  bottom: 13vw;
 }
 
 .lasting-image .four {
@@ -252,16 +243,16 @@
   font-family: 'Lato', sans-serif;
   font-weight: 500;
   font-size: 12px;
-  color: rgb(88, 83, 83);
-  left: 1rem;
-  bottom: 15.5rem
-} */
+  color: #fff;
+  right: 18vw;
+  bottom: 18vw;
+}
 
-/* .partner-crime h4 {
+.partner-crime h4 {
   font-family: 'Lato', sans-serif;
   font-weight: 500;
   font-size: 25px;
-  margin-left: 8rem;
+  margin-left: 9rem;
 }
 
 .particulers {
@@ -284,7 +275,7 @@
   align-items: center;
   justify-content: center;
   margin-bottom: 1rem;
-  margin-left: 9rem;
+  margin-left: 10rem;
 }
 
 .end1 {
@@ -310,9 +301,9 @@
   font-weight: 500;
   font-size: 9px;
   width: 17rem;
-  position: absolute;
-  top: 130rem;
-  left: 6rem;
+  position: relative;
+  padding-top: 2rem;
+  left: 1rem;
 }
 
 .particulers2:hover,
@@ -321,7 +312,7 @@
   transition: 1s all ease-out;
   transition-duration: 1s;
   transition-delay: 0.1s;
-} */
+}
 
 @media screen and (min-width: 768px) {
   * {
@@ -540,11 +531,37 @@
 
   .lasting-image {
     display: flex;
+    flex-direction: row;
+    gap: 0;
+  }
+
+  .blur-part {
+    background-image: url("images/attendees1.jpg");
+    background-size: 40vw;
+    background-repeat: no-repeat;
+    color: #fff;
+    margin-left: 2.5vw;
+    transition: all;
+    transition-duration: 1s;
+  }
+  
+  .blur-part-2 {
+    background-image: url("images/med1.png");
+    background-size: 40vw;
+    background-repeat: no-repeat;
+    color: #fff;
+    margin-left: 3.5vw;
+    transition: all;
+    transition-duration: 1s;
   }
 
   .color-blur {
-    background-color: rgba(255, 165, 0, 0.5);
+    background-color: rgba(255, 60, 0, 0.5);
     padding: 77px;
+  }
+
+  .partner-crime {
+    display: none;
   }
   
 
