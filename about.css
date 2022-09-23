@@ -7,11 +7,39 @@
 }
 
 .nav3hideon {
-  display: block;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgb(0, 0, 0, 0.8);
+  backdrop-filter: blur(5px);
+  left: -100vw;
+  height: 100vh;
+  justify-content: center;
+  z-index: 100;
+  transition: 1s ease-out;
+}
+
+.nav3hideon .markx {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.nav3hideon ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.nav3hideon ul li a {
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
 }
 
 .sixty-six {
-  display: none;
+  display: block;
 }
 
 .navigation {
@@ -26,6 +54,7 @@
 .nav1 .hammer {
   display: flex;
   color: rgb(22, 19, 19);
+  position: fixed;
 }
 
 .box {
@@ -49,7 +78,7 @@
   color: #f44c06;
   width: 21rem;
   margin-left: 1rem;
-  padding-top: 1rem;
+  padding-top: 3rem;
 }
 
 .smaller {
@@ -99,7 +128,7 @@
 .questionaire span {
   font-weight: 700;
   font-size: 16px;
-  color: #000;
+  color: #ed6242;
   padding-left: 20px;
   text-decoration: underline;
 }
@@ -324,7 +353,7 @@
   }
 
   .nav3hideon {
-    display: block;
+    display: none;
   }
 
   .sixty-six {

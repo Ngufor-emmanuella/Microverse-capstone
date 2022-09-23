@@ -4,12 +4,12 @@
   box-sizing: border-box;
   overflow-x: hidden;
   font-family: 'Lato', sans-serif;
-
-  /* font-family: 'Poppins', sans-serif; */
 }
 
 .ham {
   color: rgb(22, 19, 19);
+  position: fixed;
+  display: flex;
 }
 
 .mainest {
