@@ -397,6 +397,13 @@
     color: rgb(22, 19, 19);
   }
 
+  .navs21 a:hover {
+    color: rgb(243, 49, 49);
+    border: 2px solid rgb(243, 49, 49);
+    padding: 2px 7px;
+  }
+
+
   .navs21 {
     padding-right: 1rem;
     padding-top: 0.5rem;
@@ -563,320 +570,81 @@
   .partner-crime {
     display: none;
   }
-  
 
-  /* .last-lasting {
-   
-    width: 85%;
-    opacity: 0.4;
-    
-  } */
-  
-  
-  
-  
-  
-
-
-}
-  /* 
-
-  body {
-    width: 100%;
-  }
-
-  .nav3hideon {
-    display: none;
-  }
-
-  .navigation {
-    display: none;
-  }
-
-  .navlo {
-    display: block;
-  }
-
-  .nav1o {
-    display: flex;
-  }
-
-  .nav1a a {
-    text-decoration: none;
-    color: #fff;
-  }
-
-  .nav1a {
-    color: #fff;
-  }
-
-  .nav1 {
-    display: flex;
-    background-color: rgb(22, 19, 19);
-    padding-top: 10px;
-    padding-bottom: 10px;
-    justify-content: flex-end;
-    padding-right: 5.5rem;
-  }
-
-  .sixty-six {
-    display: none;
-  }
-
-  .navlo2 {
-    display: block;
-    background-color: #fff;
-    padding-bottom: 17px;
-  }
-
-  .nav201 {
-    display: flex;
-    list-style-type: none;
-  }
-
-  .nav201 > .navs21 {
-    display: flex;
-    padding-right: 1rem;
-    padding-top: 10px;
-  }
-
-  .navs21 a {
-    text-decoration: none;
-    color: rgb(37, 34, 34);
-  }
-
-  .navlo2 > .nav2o {
-    display: flex;
-    display: flex;
-    list-style-type: none;
-    float: right;
-    margin-right: 85px;
-  }
-
-  .nutrition {
-    display: block;
-  }
-
-  .nav201 > .nutrition img {
-    display: block;
-    width: 45px;
-    position: absolute;
-    left: 75px;
-  }
-
-  .nav1 .hammer {
-    display: none;
-  }
-
-  .navs21 a:hover {
-    color: rgb(243, 49, 49);
-    border: 2px solid rgb(243, 49, 49);
-    padding: 2px 7px;
-  }
-
-  .mainest {
-    background: linear-gradient(rgba(255, 255, 255, 0.836), white), url(./images/students-computer.jpg);
-    background-blend-mode: luminosity;
-    width: 100%;
-    z-index: 4;
-    height: auto;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
-  .boxone h1 {
-    display: none;
-  }
-
-  .bigscreening {
-    display: block;
-    color: rgb(243, 49, 49);
+  .color-blur .one {
+    position: relative;
+    left: 5vw;
+    font-family: 'Lato', sans-serif;
     font-weight: 700;
     font-size: 35px;
-    width: 62vw;
-    margin-left: 22vw;
-    padding-top: 2rem;
+    color: #fff;
+    top: -8vw;
   }
-
-  .first-first {
-    border: none;
-    margin-left: 6vw;
-    justify-content: center;
+  
+  .color-blur .two {
     position: relative;
-    left: 12vw;
-  }
-
-  .first-paragraph {
-    padding-top: 10px;
-    padding-bottom: 1rem;
-    letter-spacing: 0.2px;
-    width: 42.5rem;
-    color: #000;
-    background-color: rgb(255, 255, 255, 1.5);
-  }
-
-  .questionaire {
-    background-color: rgb(240, 240, 240, 0.1);
-  }
-
-  .questionaire p {
-    width: 48rem;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    margin-left: 17vw;
-  }
-
-  .questionaire span {
-    font-weight: 700;
-    font-size: 16px;
-    color: #000;
-    padding-left: 11rem;
-    text-decoration: underline;
-  }
-
-  .globally h3 {
-    width: 25rem;
-    margin-left: 27vw;
-    position: relative;
-    top: 4rem;
-  }
-
-  .line {
-    position: relative;
-    top: 3.5rem;
-    border-color: #ed6242;
-    margin-left: 22rem;
-    width: 60px;
-  }
-
-  .globally p {
-    width: 59vw;
-    margin-left: 20vw;
-    margin-top: 4rem;
-    margin-bottom: 25px;
-  }
-
-  .globaling {
-    display: flex;
-    border: 1px solid rgb(165, 159, 159);
-    border-radius: 3px;
-    padding: 30px 30px;
-    width: 40%;
-    margin-left: 30vw;
-  }
-
-  .second-second h2 {
+    top: -10vw;
     font-family: 'Lato', sans-serif;
     font-weight: 500;
-    color: rgb(68, 63, 63);
-    font-size: 19px;
-    width: 25rem;
-    padding-top: 1rem;
-    padding-bottom: 5px;
-    margin-left: 25vw;
+    font-size: 12px;
+    color: #fff;
+    left: -7vw;
   }
-
-  .lineof {
-    width: 30px;
-    border-color: #ed6242;
-    margin-left: 47vw;
-  }
-
-  .second-second p {
-    width: 70vw;
-    margin-left: 18vw;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-  }
-
-  .lasting-image {
-    display: flex;
-  }
-
-  .last-lasting {
-    width: 39%;
-    margin-left: 6vw;
-    padding-top: 3rem;
-    padding-bottom: 6rem;
-    opacity: 0.4;
-  }
-
-  .lasting-image .one {
-    position: absolute;
-    left: -2rem;
+  
+  .pushit .three {
+    position: relative;
+    left: 5vw;
     font-family: 'Lato', sans-serif;
     font-weight: 700;
     font-size: 35px;
-    top: 63rem;
-    color: rgb(88, 83, 83);
+    color: #fff;
+    bottom: 8vw;
   }
-
-  .lasting-image .two {
-    position: absolute;
-    top: 65.5rem;
-    font-family: 'Lato', sans-serif;
-    font-weight: 500;
-    font-size: 10px;
-    color: rgb(88, 83, 83);
-    left: -2rem;
-  }
-
-  .lasting-image .three {
-    position: absolute;
-    left: 20rem;
-    font-family: 'Lato', sans-serif;
-    font-weight: 700;
-    font-size: 35px;
-    top: 63rem;
-    color: rgb(88, 83, 83);
-  }
-
+  
   .lasting-image .four {
-    position: absolute;
-    top: 65.5rem;
+    position: relative;
     font-family: 'Lato', sans-serif;
     font-weight: 500;
-    font-size: 10px;
-    color: rgb(88, 83, 83);
-    left: 18rem;
-  }
-
-  .partner-crime {
-    display: none;
-  }
-
-  .end {
-    background-color: #272a31;
-    width: 100%;
+    font-size: 12px;
+    color: #fff;
+    right: 9vw;
+    bottom: 10vw;
   }
 
   .end1 {
     display: flex;
-    margin-bottom: 25px;
-    margin-top: 25px;
     justify-content: space-around;
-    text-align: center;
-    margin-left: 25px;
-  }
-
-  .end1 img {
-    width: 50px;
-    height: 70px;
-    margin-bottom: 20px;
-    margin-left: 26vw;
-  }
-
-  .end1 ul {
-    list-style-type: none;
+    background-color: #272a31;
   }
 
   .end1 p {
-    padding-top: 25px;
+    text-align: center;
     text-transform: capitalize;
     font-family: 'Lato', sans-serif;
     font-weight: 500;
-    font-size: 16px;
-    width: 30rem;
+    font-size: 14px;
+    width: 32vw;
+    position: relative;
+    padding-top: 2rem;
+    left: -3rem;
     color: #fff;
+    padding-bottom: 1rem;
   }
-} */
+
+  .end1 img {
+    width: 9%;
+    position: absolute;
+    height: 9vh;
+    left: 15rem;
+    padding-top: 1rem;
+  }
+
+  .end2 img:hover,
+   .end2 img:focus {
+   transform: translate(10px, 15%);
+   transition: 2s all ease-in-out;
+   transition-duration: 1s;
+   transition-delay: 0.1s;
+  }
+}
+  
