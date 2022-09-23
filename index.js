@@ -148,8 +148,8 @@ const content = `
 `;
 selectChoice.innerHTML = content;
 
-const menuDrop = document.querySelector('.box3b')
+const menuDrop = document.querySelector('.box3b');
 
-selectChoice.addEventListener('click', ()=> {
-  menuDrop.style.display = 'block'
-})
+selectChoice.addEventListener('click', () => {
+  menuDrop.style.display = 'block';
+});
