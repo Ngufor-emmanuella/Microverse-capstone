@@ -1,4 +1,4 @@
- * {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -18,7 +18,8 @@
   display: none;
 }
 
-.nav1o, .nav201 {
+.nav1o,
+.nav201 {
   display: none;
 }
 
@@ -27,10 +28,9 @@
   color: rgb(22, 19, 19);
 }
 
-
 .box {
   display: grid;
-  grid-template-rows: 30%, 25%, 25%, 25%, 30%,;
+  grid-template-rows: 30%, 25%, 25%, 25%, 30%;
   padding-bottom: 5rem;
   max-width: 100%;
   grid-row-gap: 5rem;
@@ -91,7 +91,7 @@
 
 .questionaire p {
   width: 25rem;
-   padding-left: 3rem;
+  padding-left: 3rem;
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
@@ -326,23 +326,19 @@
   .nav3hideon {
     display: block;
   }
-  
+
   .sixty-six {
     display: none;
   }
-  
+
   .navigation {
     display: none;
   }
-  
-  .nav201 {
-    display: block;
-  }
-  
+
   .nav1 .hammer {
     display: none;
   }
-  
+
   .mainest {
     background: linear-gradient(rgba(255, 255, 255, 0.836), white), url(./images/students-computer.jpg);
     background-blend-mode: luminosity;
@@ -365,16 +361,16 @@
     display: flex;
   }
 
-  .nav1 > .nav1a {
-    display: flex;
-    list-style-type: none;
-  }
-
   .nav1a {
     padding-right: 1rem;
     font-family: 'lato', sans-serif;
     font-weight: 500;
     font-size: 17px;
+  }
+
+  .nav1 > .nav1a {
+    display: flex;
+    list-style-type: none;
   }
 
   .nav1a a {
@@ -389,7 +385,7 @@
   .nav201 {
     display: flex;
     justify-content: flex-end;
-    margin-right: 5rem
+    margin-right: 5rem;
   }
 
   .navs21 a {
@@ -403,7 +399,6 @@
     padding: 2px 7px;
   }
 
-
   .navs21 {
     padding-right: 1rem;
     padding-top: 0.5rem;
@@ -415,6 +410,14 @@
 
   .nutrition {
     display: block;
+  }
+
+  .end1 img {
+    width: 9%;
+    position: absolute;
+    height: 9vh;
+    left: 15rem;
+    padding-top: 1rem;
   }
 
   .nav201 > .nutrition img {
@@ -430,12 +433,12 @@
 
   .box {
     display: grid;
-    grid-template-rows: 30%, 25%, 25%, 25%, 30%,;
+    grid-template-rows: 30%, 25%, 25%, 25%, 30%;
     padding-bottom: 5rem;
     max-width: 100%;
     grid-row-gap: 2px;
   }
-  
+
 
   .bigscreening {
     display: block;
@@ -454,15 +457,14 @@
   }
 
   .questionaire {
-   
     margin-top: 10vw;
   }
-  
+
   .questionaire p {
     width: 39rem;
     margin: 0 auto;
   }
-  
+
   .questionaire span {
     font-weight: 700;
     font-size: 16px;
@@ -475,7 +477,7 @@
     width: 25rem;
     margin: 0 auto;
   }
-  
+
   .line {
     width: 3rem;
     border-color: #ed6242;
@@ -487,7 +489,7 @@
     margin: 0 auto;
     padding-bottom: 2rem;
   }
-  
+
   .globaling {
     display: flex;
     border: 1px solid rgb(165, 159, 159);
@@ -500,7 +502,7 @@
     display: flex;
     place-content: center;
   }
-  
+
   .globaling p {
     width: 33vw;
     place-content: center;
@@ -509,7 +511,7 @@
   .globaling .year {
     padding-left: 8vw;
   }
-  
+
   .globaling .day {
     font-weight: 400;
     font-size: 8px;
@@ -524,7 +526,7 @@
     font-size: 1.5rem;
     margin: 0 auto;
   }
-  
+
   .lineof {
     width: 5rem;
     border-color: #ed6242;
@@ -551,7 +553,7 @@
     transition: all;
     transition-duration: 1s;
   }
-  
+
   .blur-part-2 {
     background-image: url("images/med1.png");
     background-size: 40vw;
@@ -580,7 +582,7 @@
     color: #fff;
     top: -8vw;
   }
-  
+
   .color-blur .two {
     position: relative;
     top: -10vw;
@@ -590,7 +592,7 @@
     color: #fff;
     left: -7vw;
   }
-  
+
   .pushit .three {
     position: relative;
     left: 5vw;
@@ -600,7 +602,7 @@
     color: #fff;
     bottom: 8vw;
   }
-  
+
   .lasting-image .four {
     position: relative;
     font-family: 'Lato', sans-serif;
@@ -631,20 +633,11 @@
     padding-bottom: 1rem;
   }
 
-  .end1 img {
-    width: 9%;
-    position: absolute;
-    height: 9vh;
-    left: 15rem;
-    padding-top: 1rem;
-  }
-
   .end2 img:hover,
-   .end2 img:focus {
-   transform: translate(10px, 15%);
-   transition: 2s all ease-in-out;
-   transition-duration: 1s;
-   transition-delay: 0.1s;
+  .end2 img:focus {
+    transform: translate(10px, 15%);
+    transition: 2s all ease-in-out;
+    transition-duration: 1s;
+    transition-delay: 0.1s;
   }
 }
-  

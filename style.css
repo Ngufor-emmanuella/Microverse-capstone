@@ -34,7 +34,6 @@
   top: 0;
   bottom: 0;
   right: 0;
-  left: o;
   position: absolute;
   z-index: -1;
 }
@@ -114,6 +113,16 @@
   background-color: rgb(34, 31, 31);
 }
 
+
+h3 {
+  justify-content: center;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  padding-top: 1rem;
+}
+
 .box2 h3 {
   color: #fff;
   font-family: 'Lato', sans-serif;
@@ -163,7 +172,6 @@
   justify-content: center;
   align-items: center;
   width: auto;
-  height: a;
   padding: 0;
   margin: 0;
 }
@@ -310,7 +318,6 @@
   font-family: 'Lato', sans-serif;
   font-weight: 500;
   font-size: 5vw;
-  max-width: auto;
 }
 
 .card h6 {
@@ -327,14 +334,8 @@
   font-size: 12px;
   line-height: 1rem;
   padding-bottom: 1rem;
-  max-width: auto;
   max-height: 10rem;
   word-spacing: 0.2px;
-}
-
-.secondline {
-  border-color: #ed6242;
-  width: 40px;
 }
 
 .thirdline {
@@ -355,6 +356,12 @@
 
 .end {
   background-color: #fff;
+}
+
+.end1 img {
+  width: 50px;
+  height: 70px;
+  margin-bottom: 20px;
 }
 
 .end2 img:hover,
@@ -398,15 +405,6 @@
   color: #ec5242;
 }
 
-h3 {
-  justify-content: center;
-  text-align: center;
-  font-family: 'Lato', sans-serif;
-  font-weight: 500;
-  font-size: 20px;
-  padding-top: 1rem;
-}
-
 .end1 {
   display: flex;
   margin-bottom: 25px;
@@ -415,12 +413,6 @@ h3 {
   text-align: center;
   margin-left: 25px;
   margin-right: 10px;
-}
-
-.end1 img {
-  width: 50px;
-  height: 70px;
-  margin-bottom: 20px;
 }
 
 .end1 ul {
@@ -513,10 +505,6 @@ h3 {
     list-style-type: none;
   }
 
-  .nav21 {
-    display: flex;
-  }
-
   .nav201 {
     display: flex;
     list-style-type: none;
@@ -525,6 +513,7 @@ h3 {
   }
 
   .nav21 {
+    display: flex;
     padding-right: 35px;
     padding-top: 10px;
   }
@@ -547,6 +536,23 @@ h3 {
 
   .nutrition {
     display: block;
+  }
+
+  .box3b img {
+    position: relative;
+    bottom: 1rem;
+    display: flex;
+    width: 16vh;
+    align-self: flex-end;
+    flex-wrap: wrap;
+  }
+
+  .end2 img:hover,
+  .end2 img:focus {
+    transform: translate(10px, 15%);
+    transition: 2s all ease-in-out;
+    transition-duration: 2s;
+    transition-delay: 0.2s;
   }
 
   .nav201 > .nutrition img {
@@ -626,6 +632,15 @@ h3 {
     background-color: rgb(34, 31, 31);
   }
 
+  h3 {
+    justify-content: center;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    padding-top: 2.5rem;
+  }
+
   .box2 h3 {
     color: #fff;
     font-family: 'Lato', sans-serif;
@@ -702,20 +717,6 @@ h3 {
     padding-bottom: 40px;
   }
 
-  h3 {
-    justify-content: center;
-    text-align: center;
-    font-family: 'Lato', sans-serif;
-    font-weight: 500;
-    font-size: 20px;
-    padding-top: 2.5rem;
-  }
-
-  .box3b {
-    display: flex;
-    flex-direction: row;
-  }
-
   .box3b h2 {
     font-family: 'Lato', sans-serif;
     font-weight: 500;
@@ -749,7 +750,7 @@ h3 {
   .image:focus {
     border: 1px solid rgb(233, 230, 230);
     animation-delay: 1.5s;
-    animation-duration: 24;
+    animation-duration: 2s;
     transition: all 1s ease-out;
     transform: scale(1);
     cursor: pointer;
@@ -771,15 +772,6 @@ h3 {
     gap: -1px;
     margin-bottom: 20px;
     justify-content: center;
-  }
-
-  .box3b img {
-    position: relative;
-    bottom: 1rem;
-    display: flex;
-    width: 16vh;
-    align-self: flex-end;
-    flex-wrap: wrap;
   }
 
   .card h2 {
@@ -855,14 +847,6 @@ h3 {
     text-transform: capitalize;
   }
 
-  .end2 img:hover,
-  .end2 img:focus {
-    transform: translate(10px, 15%);
-    transition: 2s all ease-in-out;
-    transition-duration: 2s;
-    transition-delay: 0.2s;
-  }
-
   .button {
     display: none;
   }
@@ -909,7 +893,6 @@ h3 {
 
   .box2a > p {
     text-align: start;
-    font-size: 1rem;
     font-size: 1rem;
     max-width: 100vw;
     height: auto;
