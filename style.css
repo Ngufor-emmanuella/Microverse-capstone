@@ -113,7 +113,6 @@
   background-color: rgb(34, 31, 31);
 }
 
-
 h3 {
   justify-content: center;
   text-align: center;
@@ -547,6 +546,12 @@ h3 {
     flex-wrap: wrap;
   }
 
+  .end1 img {
+    width: 50px;
+    height: 70px;
+    margin-bottom: 20px;
+  }
+
   .end2 img:hover,
   .end2 img:focus {
     transform: translate(10px, 15%);
@@ -829,12 +834,6 @@ h3 {
     margin-top: 25px;
     justify-content: center;
     text-align: center;
-  }
-
-  .end1 img {
-    width: 50px;
-    height: 70px;
-    margin-bottom: 20px;
   }
 
   .end1 ul {
