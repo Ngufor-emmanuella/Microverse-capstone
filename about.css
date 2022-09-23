@@ -66,7 +66,7 @@
 }
 
 .mainest {
-  background: linear-gradient(rgba(255, 255, 255, 0.836), white), url(./images/students-computer.jpg);
+  background: linear-gradient(rgba(255, 255, 255, 0.6), white), url(./images/students-computer.jpg);
   background-blend-mode: luminosity;
   width: 100%;
   z-index: 4;
@@ -496,7 +496,7 @@
   .questionaire span {
     font-weight: 700;
     font-size: 16px;
-    color: #000;
+    color: #ed6242;
     padding-left: 11rem;
     text-decoration: underline;
   }
