@@ -43,7 +43,7 @@ const speakerCardsItems = [
   },
   {
     speaker_image: 'images/green-apples.webp',
-    speaker_name:  'Benefits of apples',
+    speaker_name: 'Benefits of apples',
     speaker_education: 'Research has proven that some fruits and veggies reduces blood sugar',
     speaker_bio: 'Listing the best fruits and veggies with low glycemic indexes...',
   },
