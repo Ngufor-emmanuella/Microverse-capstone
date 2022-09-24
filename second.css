@@ -51,10 +51,6 @@
   display: block;
 }
 
-.navigation {
-  display: none;
-}
-
 .nav1o,
 .nav201 {
   display: none;
@@ -69,6 +65,7 @@
   color: rgb(22, 19, 19);
   position: fixed;
 }
+
 /* end */
 
 body {
@@ -167,7 +164,7 @@ body {
 
 .line2 {
   height: 1px;
-  border-color:rgb(243, 49, 49);
+  border-color: rgb(243, 49, 49);
   width: 3rem;
   position: relative;
   bottom: 0.2rem;
@@ -196,6 +193,12 @@ body {
   color: var(--black);
 }
 
+footer p {
+  font-weight: 500;
+  font-size: 15px;
+}
+
+
 .about-text p {
   width: 20rem;
 }
@@ -203,6 +206,12 @@ body {
 .about-logo {
   width: 100%;
 }
+
+footer img {
+  width: 5rem;
+  height: 13vh;
+}
+
 
 .about-logo img {
   width: 15rem;
@@ -284,16 +293,6 @@ body {
   margin: 0.2rem;
 }
 
-footer img {
-  width: 5rem;
-  height:13vh;
-}
-
-footer p {
-  font-weight: 500;
-  font-size: 15px;
-}
-
 footer {
   display: flex;
   justify-content: space-around;
@@ -310,12 +309,12 @@ footer {
 }
 
 footer img:hover,
-  footer img:focus {
-    transform: translate(10px, 15%);
-    transition: 2s all ease-in-out;
-    transition-duration: 1s;
-    transition-delay: 0.1s;
-  }
+footer img:focus {
+  transform: translate(10px, 15%);
+  transition: 2s all ease-in-out;
+  transition-duration: 1s;
+  transition-delay: 0.1s;
+}
 
 @media (min-width: 768px) {
   .explaining-text1 {
@@ -409,12 +408,30 @@ footer img:hover,
     display: block;
   }
 
+  footer img {
+    width: 5rem;
+    height: 13vh;
+  }
+
+  .about-logo img {
+    width: 15rem;
+  }
+
+  footer img:hover,
+  footer img:focus {
+    transform: translate(10px, 15%);
+    transition: 2s all ease-in-out;
+    transition-duration: 1s;
+    transition-delay: 0.1s;
+  }
+
   .nav201 > .nutrition img {
     display: block;
     width: 4vw;
     position: absolute;
     left: 4rem;
   }
+
   /* end */
 
   .setoff {
@@ -426,14 +443,16 @@ footer img:hover,
     width: 25rem;
   }
 
-  .about-logo img {
-    width: 15rem;
+  footer p {
+    font-weight: 500;
+    font-size: 15px;
   }
+
 
   .about-text p {
     width: 35rem;
   }
-  
+
 
   .recent-carts {
     flex-direction: row;
@@ -475,16 +494,6 @@ footer img:hover,
     display: none;
   }
 
-  footer img {
-    width: 5rem;
-    height:13vh;
-  }
-  
-  footer p {
-    font-weight: 500;
-    font-size: 15px;
-  }
-  
   footer {
     display: flex;
     justify-content: center;
@@ -494,16 +503,6 @@ footer img:hover,
     background-color: #272a31;
     color: #fff;
   }
-
-  footer img:hover,
-  footer img:focus {
-    transform: translate(10px, 15%);
-    transition: 2s all ease-in-out;
-    transition-duration: 1s;
-    transition-delay: 0.1s;
-  }
-
-  
 }
 
 @media (min-width: 1400px) {
