@@ -10,6 +10,7 @@
 -I Used JavaScript to manipulate DOM elements.
 -I Used JavaScript events.
 -I used objects to store and access data.
+ -This project is Original design idea by Cindy Shin in Behance.
 ## Built With
 
 - HTML for layout 
@@ -59,8 +60,8 @@ Give a ⭐️ if you like this project!
 
 - Hat tip to anyone whose code was used
 - Inspiration
-- etc
+- Original design idea by Cindy Shin in Behance.
 
 ## 📝 License
 
-This project is [MIT](./MIT.md) licensed.
+This project is [Cindy Shin in Behance.](https://www.behance.net/adagio07) licensed.
