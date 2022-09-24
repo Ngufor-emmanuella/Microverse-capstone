@@ -142,6 +142,11 @@ body {
   font-weight: 400;
 }
 
+footer p {
+  font-weight: 500;
+  font-size: 15px;
+}
+
 .about-text2 p {
   font-size: 19px;
   font-weight: 400;
@@ -193,12 +198,6 @@ body {
   color: var(--black);
 }
 
-footer p {
-  font-weight: 500;
-  font-size: 15px;
-}
-
-
 .about-text p {
   width: 20rem;
 }
@@ -211,7 +210,6 @@ footer img {
   width: 5rem;
   height: 13vh;
 }
-
 
 .about-logo img {
   width: 15rem;
@@ -448,11 +446,9 @@ footer img:focus {
     font-size: 15px;
   }
 
-
   .about-text p {
     width: 35rem;
   }
-
 
   .recent-carts {
     flex-direction: row;
