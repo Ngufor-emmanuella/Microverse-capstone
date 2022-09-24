@@ -6,10 +6,10 @@
   font-family: 'Lato', sans-serif;
 }
 
-.ham {
+.nav1 .hammer {
+  display: flex;
   color: rgb(22, 19, 19);
   position: fixed;
-  display: flex;
 }
 
 .mainest {
@@ -419,12 +419,12 @@ h3 {
 }
 
 .end1 p {
-  padding-top: 55px;
+  padding-top: 22px;
   text-transform: capitalize;
   font-family: 'Lato', sans-serif;
   font-weight: 500;
-  font-size: 9px;
-  width: 17rem;
+  font-size: 12px;
+  width: 18rem;
 }
 
 .nav3hide {
