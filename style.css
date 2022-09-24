@@ -319,6 +319,14 @@ Main Program section
   margin-top: 10px;
 }
 
+.hello_text {
+  color: #ec5242;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
 .main_program_card_message {
   color: #fff;
   font-family: 'Lato', sans-serif;
