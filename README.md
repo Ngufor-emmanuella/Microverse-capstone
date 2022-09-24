@@ -18,7 +18,7 @@
 - Linters HTML/CSS and Javascript
 -Javascript for language
 
-## Live Demo (if available)
+## Live Demo (https://ngufor-emmanuella.github.io/microverse-capstone/)
 
 
 ## Getting Started
