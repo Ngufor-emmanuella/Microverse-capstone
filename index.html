@@ -1,134 +1,218 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Emmanuella's Capstone Project</title>
-    <script src="https://kit.fontawesome.com/7869860a54.js" crossorigin="anonymous"></script> 
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="style.css">
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>Preventing Diabetes Conference</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+  <link href="http://fonts.cdnfonts.com/css/cocogoose" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="style.css">
+
+
 </head>
-
 <body>
-    <div class="nav3hide" id="hide">
-        <div class="sixty"><img class="markx" src="images/Icon.png" alt="an x"></div>
-        <ul class="navigation">
-            <li><a class="navlink" href="#home">home</a></li>
-            <li><a class="navlink" href="second.html">About</a></li>
-            <li><a class="navlink" href="#partners">Ourplans</a></li>
-            <li><a class="navlink" href="#feature-head">Works</a></li>
-            <li><a class="navlink" href="#end">News</a></li>
-        </ul>
-    </div>
 
-    <main class="mainest">
-    <header class="nav">
-        <div class="nav1">
-         <img class="hammer" id="ham" src="images/menu-icon.svg" alt="menu"> 
-    <ul class="nav1o">
-        <li class="nav1a">
-            <a href="#"><i class="fa-brands fa-twitter-square"></i></a>
-        </li>
-        <li  class="nav1a">
-            <a href="#"><i class="fa-brands fa-facebook-square"></i></a>
-        </li>
-        <li  class="nav1a">
+  <main>
+    <header>
+      <div class="top_toolbar">
+        <ul class="top_toolbar_ul">
+          <li class="top_toolbar_items_icon">
+            <a href="#">
+              <img src="images/icons/icons_facebook_f.svg" alt="facebook">
+            </a>
+          </li>
+          <li class="top_toolbar_items_icon">
+            <a href="#">
+              <img src="images/icons/icons_twitter.svg" alt="twitter">
+            </a>
+          </li>
+          <li class="top_toolbar_items">
             <a href="#">English</a>
-        </li>
-        <li class="nav1a">
+          </li>
+          <li class="top_toolbar_items">
             <a href="#">My Page</a>
-        </li>
-        <li  class="nav1a">
+          </li>
+          <li class="top_toolbar_items">
             <a href="#">Logout</a>
-        </li>
-    </ul>
-    </div>
-</header>
-     <div class="nav2">
-        <div class="nav2o">
-        <ul class="nav201">
-            <li class="nutrition"><a href="second.html"><img src="images/nutrition-logo.png" alt="logo"></a></li>
-            <li class="nav21"><a href="second.html">About</a></li>
-            <li class="nav21"><a href="#partners">Program</a></li>
-            <li class="nav21"><a href="#about">Emma</a></li>
-            <li class="nav21"><a href="#ourplans">Sponsor</a></li>
-            <li class="nav21"><a href="#partners">News</a></li>
-            <li class="nav21"><a href="#end">CC Campaign</a></li>
+          </li>
         </ul>
-    </div>
-    </div>
-    <section class="box" id="home">
-        <div class="box1">
-        <h1 class="small">"Hello! Sharing World"<br>
-            <span class="big">Together preventing diabetes 2022</span>
-        </h1>
-        <div class="first">
-        <p class="first-para">
-            A joyful celebration believing in the value of openness and sharing,
-            creating <br> a positive change with people for over 80 countries is taking place in august in Cameroon.
+      </div>
+
+      <nav>
+        <div class="nav_container">
+          <a href="#home" id="brand">
+            <img class="header_logo" src="images/nutrition-logo.png" alt="brand logo">
+          </a>
+          <ul class="desktop desktop-nav">
+            <li class="nav-links">
+              <a href="#program_section">Programs</a>
+            </li>
+            <li class="nav-links">
+              <a href="#speakers_section">Speakers</a>
+            </li>
+            <li class="nav-links">
+              <a href="#partners">Sponsor</a>
+            </li>
+            <li class="nav-links">
+              <a href="about.html">About</a>
+            </li>
+              <li class="nav-links campaign_link">
+                <a href="#contact">Campaign</a>
+              </li>
+          </ul>
+          <div class="mobile-menu-bars mobile" id="menu-bars">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+          </div>
+        </div>
+      </nav>
+
+      <nav class="overlay overlay-slide-left" id="overlay">
+        <ul class="mobile-nav-items">
+          <li id="nav-1"><a href="#home" class="nav-mobile-links">Home</a></li>
+        <li id="nav-1"><a href="#program_section" class="nav-mobile-links">Programs</a></li>
+        <li id="nav-2"><a href="#speakers_section" class="nav-mobile-links">Speakers</a></li>
+        <li id="nav-3"><a href="#partners" class="nav-mobile-links">Sponsor</a></li>
+        <li id="nav-3"><a href="about.html" class="nav-mobile-links">About</a></li>
+        <li id="nav-3"><a href="#" class="nav-mobile-links">Campaign</a></li>
+        </ul>
+      </nav>
+    </header>
+ 
+    <section class="header_section" id="home">
+      
+      <div class="header_section_main_div">
+        <h2 class="stem_by_us"> Living Hapily with Diabetes</h2>
+
+        <div class="header_text_div">
+          <p>AFRICAN DIABETES ASSOCIATION 2022!</p>
+        </div>
+
+        <p class="header_about_stem">
+          It is with great pleasure that we invite you to the 
+          2nd edition of diabetes Conference. This conference is an
+          event hosted by African top health experts. In 2022, it will 
+          be stream live on all Africa Diabetes Association media pages. 
+          The theme this 2022 is “CHANGING THE MIND“.
         </p>
+        <h2 class="date_of_event">
+          2022.11.25(FRI) ~ 26(SAT)
+        </h2>
+        <h3 class="event_address">
+          @Hilton hotel confernce hall yaounde,Cameroon.
+        </h3>
+      </div>
+    </section>
+
+    <section class="main_program_section" id="program_section">
+
+      <div class="main_program_section_div">
+        <h3 class="main_program_heater_text">Main Program</h3>
+        <div class="orange_line"></div>
+
+        <Div class="program_cards_div">
+
+          <div class="program_card">
+            <img class="main_program_card_icon" src="images/icons/icon_lecture.svg" alt="Lecture">
+              <h3 class="main_program_card_title">Lecture</h3>  
+            <p class="main_program_card_message">
+              Listen to the speakers from various health background, 
+              they will talk about the important of STEM and innovation.
+            </p>
+          </div>
+
+          <div class="program_card">
+            <img class="main_program_card_icon" src="images/icons/icon_Exhibition.svg" alt="Exhibition">
+            <h3 class="main_program_card_title">Exhibition</h3>
+            <p class="main_program_card_message">
+              Appreciate various creation, created by the innovation groups to show case. 
+              vote for your favorite topic
+            </p>
+          </div>
+
+          <div class="program_card">
+            <img class="main_program_card_icon" src="images/icons/icon_forum.svg" alt="forum">
+            <h3 class="main_program_card_title">Forum</h3>
+            <p class="main_program_card_message">
+              Have your time to share your thoughts and opinions with experts from 
+              each topic of discussion during the lectures.
+            </p>
+          </div>
+
+          <div class="program_card">
+            <img class="main_program_card_icon" src="images/icons/icon_workshop.svg" alt="workshop">
+            <h3 class="main_program_card_title">Workshop</h3>
+            <p class="main_program_card_message">
+              try to note down each topic given by the presenter so that later on you can revise it
+            </p>
+          </div>
+
+          <div class="program_card">
+            <img class="main_program_card_icon" src="images/icons/icon_ignite.svg" alt="Ignite">
+            <h3 class="main_program_card_title">Ignite</h3>
+            <p class="main_program_card_message">
+              Get an opportunity to network with innovators and health experts
+              from various health sectors
+            </p>
+          </div>
         </div>
-        <div class="second">
-            <h2>2022.05.20(THU) ~ 20(FRI)</h2>
-            <P>@ National diabetes day of Cameroon, prevention is the key</P>
-        </div>
+
+        <button class="join_stem_button">
+          JOIN THE DIABETES ASSOCIATION 2022
+        </button>
+
+        <a rel="" href="#" class="see_the_whole_program"> <h4> SEE THE WHOLE PROGRAM </h4></a> 
+      
+      </Div>
+    </section>
+
+    <section class="featured_speakers_section" id="speakers_section">
+      <h3 class="featured_speakers_header_text">
+        Feature speakers
+      </h3>
+      <div class="featured_speakers_header_text_underline"></div>
+
+      <div class="featured_speakers_main_div" id="featured_speakers">
+        <!--speakers--> 
+      </div>
+       
+      <div class="expand_more_place_holder">
+        <span class="more_text">
+           MORE
+          <span><img class="expand_arrow" src="images/icons/icons_expand_arrow.png" alt="expand arrow"></span>
+        </span>
+        
+      </div>
+    </section>
+
+    <section class="partners_section" id="partners">
+      <h3 class="partners_section_title">Partner</h3>
+      <div class="partners_section_title_underline"></div>
+      <div class="partners_logos">
+        <img class="partners_logo_image" src="images/unicef.png" alt="grovara">
+        <img class="partners_logo_image" src="images/fao.png" alt="kamara yokie">
+        <img class="partners_logo_image" src="images/naho.png" alt="Scorpion Garage">
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer_section">
+    <div class="footer_main_div">
+      <img class="footer_logo" src="images/exhibi1.jfif" alt="logo">
+      <div class="footer_text_div">
+        <h3 class="right_reserved"> &copy 2022 African Diabetes Association, some rights reserved</h3>
+        <p class="footer_text"> We've learned that living with diabetes can be enjoyable and 
+          as a result of all of this, and we're delighted to provide the 
+          free follow-up every month..
+        </p>
+      </div>
     </div>
-</section>
-</main>
-<div class="box2" id="about">
-    <div class="main-pro-head" id="main-pro">
-        <h3 id="procarthead"></h3><hr class="line">
-    </div>
-       <!-- main program here -->
-    <div class="box2ao" id="cartContainer">
-    </div>
-    <!-- End main program here -->
-    <p class="program">SEE THE WHOLE PROGRAM</p>
-        <button class="button" type="submit">Join CC Global Submit 2022</button>
-    </div>
-    <div class="box3" id="ourplans">
-        <div class="feature-head" id="feature-head">
-            <h3 class="feat">Featured Speakers</h3><hr class="line">
-            
-        </div>
-        <!-- div that holds the featured speakers -->
-        <div class="box3a">
-            <!--each cards in a seperate div -->
-        </div>
-        <div class="see">
-            <!-- <ul class="see-one">
-                <li>See More</li>                                    
-                <li><i class="fa-solid fa-angle-down"></i></li>
-            </ul> -->
-        </div>
-        <div class="partner" id="partners">
-            <div class="partnerHead">
-                <h4>Partners</h4>
-            <hr class="line">
-            </div>
-        <div class="part">
-            <div><img class="part2" src="images/google.png" alt="logo"></div>
-            <div><img class="part2" src="images/unicef.png" alt="logo"></div>
-            <div><img class="part2" src="images/naho.png" alt="logo"></div>
-            <div><img class="part2" src="images/fao.png" alt="logo"></div>
-            <div><img class="part2" src="images/airbnb.jfif" alt="logo"></div>
-        </div>
-        </div>
-        <div class="end" id="end">
-            <div class="end1">
-                <ul class="end2">
-                    <li>
-                        <img src="images/exhibi1.jfif" alt="colorful art">
-                    </li>
-                </ul>
-                <p>2022 creative commons cameroon, some rights reserved &copy.</p>
-            </div>
-        </div>
-    </div>
-    </div>
-    <script src="index.js"></script>
+  </footer>
+  
+  <script src="script.js"></script>
 </body>
 </html>
