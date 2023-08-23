@@ -18,7 +18,7 @@
 - Linters HTML/CSS and Javascript
 -Javascript for language
 
-## Live Demo (https://ngufor-emmanuella.github.io/microverse-capstone/)
+## Live Demo (https://peppy-pastelito-765b3e.netlify.app/)
 
 
 ## Getting Started
